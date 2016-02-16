@@ -17,5 +17,5 @@ os: windows
 #   may cause associated deployments to fail.
 hooks:
     BeforeInstall:
-        - location \before-install.cmd
+        - location: \before-install.cmd
           timeout: 900
