@@ -3,4 +3,4 @@ Install-WindowsFeature Web-Server
 
 $basePath = Split-Path -parent $PSCommandPath
 
-Copy "$basePath" C:\inetpub\wwwroot -recurse
+Copy "$basePath\webapidemo" C:\inetpub\wwwroot -recurse
